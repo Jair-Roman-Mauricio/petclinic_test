@@ -8,6 +8,13 @@ VALUES
 ('Henry', 'Stevens'),
 ('Sharon', 'Jenkins');
 
+-- Insert test data for specialties
+INSERT INTO specialties (name, office, h_open, h_close)
+VALUES
+('Radiology', 'Room 101', 8, 17),
+('Surgery', 'Room 201', 9, 18),
+('Dentistry', 'Room 301', 8, 16);
+
 -- Insert test data for owners
 INSERT INTO owners (first_name, last_name, address, city, telephone)
 VALUES
